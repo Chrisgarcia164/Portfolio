@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300&display=swap");
+
+:root {
+  --primary: #ddbea9;
+  --secondary: #ffe8d6;
+}
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+body {
+  background-color: var(--primary);
+}
+#nav-bar {
+  margin-bottom: 20px;
+  padding: 20px 0;
+  background-color: var(--secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.nav-items {
+  background-color: var(--secondary);
+}
+.nav-links {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+}
+.nav-links:hover {
+  opacity: 50%;
+}
+.nav-name {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+#me {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  margin: 0 3rem 5rem 3rem;
+}
+.main h2 {
+  border-bottom: black 2px solid;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+img {
+  height: 10rem;
+  margin: auto;
+  border: black 1px solid;
+}
+img:hover {
+  opacity: 85%;
+}
+.card {
+  background-color: var(--secondary);
+  display: grid;
+  align-items: center;
+  text-align: center;
+  border: 3px solid black;
+  width: 25rem;
+  padding: 2rem 0.5rem;
+  gap: 1rem;
+  border-radius: 35px;
+}
+
+#work {
+  display: grid;
+  margin: 0 3rem 5rem 3rem;
+}
+#work-title {
+  border-bottom: black 2px solid;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 5rem;
+}
+#contact-me {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: var(--secondary);
+  padding: 50px 30px;
+}
+#links a {
+  margin-left: 4rem;
+}
